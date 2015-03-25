@@ -1,4 +1,5 @@
-
+// This is Problem C of Qual Round Africa 2010 of Google Code Jam
+// For the problem, visit https://code.google.com/codejam/contest/351101/dashboard#s=p2
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -37,7 +38,6 @@ public class T9_Spelling {
 				char ch = WORD.charAt(l);			
 			
 				if(Character.isWhitespace(ch) == false){					
-					//System.out.print(keypresses(numpad, ch));
 					wr.print(keypresses(numpad, ch));
 				} else {
 					//System.out.print("0");
